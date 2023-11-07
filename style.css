@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    /* border:1px solid black; */
+}
+body{
+    background-image: linear-gradient(rgb(50, 127, 190), rgb(65, 192, 33));
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    height:50%;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5%;
+}
+.title{
+    height:20%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    color:rgb(211, 211, 106);
+
+}
+.choice{
+    height:20%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.input{
+    height:40%;
+    width:100%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+
+}
+.input>input{
+    height:30%;
+    width: 50%;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+.input>button{
+    height:30%;
+    width:20%;
+    cursor: pointer;
+    background-color: rgb(186, 189, 40);
+    border-radius: 13%;
+}
+.input>button:hover{
+    background-color: aqua;
+}
+.result{
+    height:19%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+#res{
+    color: rgb(105, 197, 51);
+    text-decoration: underline;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
